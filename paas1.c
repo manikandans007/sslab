@@ -91,3 +91,13 @@ int main()
 
     return 0;
 }
+
+optab.txt
+LDA     00
+STA     23
+ADD     01
+SUB     05
+MUL     04
+
+
+
