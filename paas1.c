@@ -99,5 +99,18 @@ ADD     01
 SUB     05
 MUL     04
 
+unput.txt
+    copy    START   1000
+        LDA     ALPHA
+        ADD     ONE
+        SUB     TWO
+        STA     BETA
+ALPHA   BYTE    C'asmata
+ONE     RESB    2
+TWO     WORD    5
+BETA    RESW    1
+_       END     _
 
+
+symtab.txt
 
