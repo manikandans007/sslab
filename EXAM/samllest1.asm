@@ -13,7 +13,7 @@ main proc
     mov si,offset arr
     mov cx,5
     mov bl,[si]
-    inc si
+    
     mov ax,[si]
     LoopA:
     cmp [si],bl 
